@@ -13,10 +13,11 @@ Please see a screenshot of my approach [here:] (https://imgur.com/xDo42Ow)
 ## Data Wrangling with R
 
 For the data-wrangling problem, I decided to use R. I saved my file as Data-wrangling.R,  which can be opened in RStudio. Before using the file and running the code, please make sure to install the below libraries:
-library(tidyverse)
-library(jsonlite)
-library(dplyr)
-library("rjson")
+
+1.library(tidyverse)
+1.library(jsonlite)
+1.library(dplyr)
+1.library("rjson")
 
 
 I had to comment out the very last portion of the code, which is writing the result table (allUsers)  into a .csv file. The allUsers file was very large, and GitHub did not allow me to push it to my repo. When you run the code, please kindly comment the line 49 back on and add ‘allUsers.csv’ as file name in the file path.  It will create the big .csv file for you locally.
